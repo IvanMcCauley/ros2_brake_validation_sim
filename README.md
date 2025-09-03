@@ -2,7 +2,7 @@
 ---
 
 ## Project context
-<img src="demo_gif.gif" align="right" width="400">
+<img src="longitudinal_1d_sim/media/demo_gif.gif" align="right" width="400">
 <br>  <!-- small spacer so it doesn’t collide with the heading -->
 
 This is **Stage 3** of my ADAS Learning Sprint:
