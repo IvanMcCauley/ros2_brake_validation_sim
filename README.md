@@ -1,14 +1,28 @@
 # ROS2_Brake_Validation_Sim - ROS 2 closed-loop 1D braking sim (Stage 3)
 
+<table>
+<tr>
+<td>
+
 ## Project Context
 
 This repo is **Stage 3** of a project during my [ADAS Learning Sprint](https://github.com/IvanMcCauley/Adas_Learning_Sprint):
 
 1. **[Braking decision library (C++17)](https://github.com/IvanMcCauley/braking_decision_lib)** - standalone math + unit tests  
 2. **[ROS 2 integration](https://github.com/IvanMcCauley/ros2_brake_decider/blob/main/README.md)** - parameterized node with pub/sub  
-3. **1D longitudinal simulation (this repo)** - validate decisions in a simulation 
+3. **1D longitudinal simulation (this repo)** - validate decisions in a simulation
 
-**Goal:** sanity-check that my ROS 2 brake decider’s `/brake_cmd` actually stops the car before an obstacle under simple 1D dynamics.
+
+</td>
+<td width="300" valign="top">
+
+<img src="sim_20250902_205223.gif" width="350">
+
+</td>
+</tr>
+</table>
+
+**Goal:** sanity-check that my ROS 2 brake decider’s `/brake_cmd` actually stops the car before an obstacle under simple 1D dynamics
 
 ---
 
@@ -54,13 +68,6 @@ cd ~/ros2_ws/src/longitudinal_1d_sim
 python3 scripts/make_video_anim.py
 ```
 MP4 goes to: <code>~/ros2_ws/results/videos/.</code>
-
----
-## Demo
-<h2>Demo</h2>
-<p align="center">
-  <img src="media/demo.gif" alt="Closed-loop braking demo" width="720">
-</p>
 
 ---
 
