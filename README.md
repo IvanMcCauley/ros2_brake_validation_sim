@@ -50,7 +50,7 @@ Wait for a line like:
 ```bash
 # deps (once):
 sudo apt update && sudo apt install -y ffmpeg
-python3 -m pip install --user matplotlib numpy
+python3 -m pip install --user matplotlib 
 
 # working dir:
 cd ~/ros2_ws/src/longitudinal_1d_sim
